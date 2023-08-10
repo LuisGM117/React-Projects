@@ -1,0 +1,35 @@
+.expense {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 10px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.date h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.amount {
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 0 10px;
+}

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    width: 150vh;
+    border-radius: 10px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.item h1,
+p,
+h3 {
+    margin: 0;
+    padding: 3px;
+}
